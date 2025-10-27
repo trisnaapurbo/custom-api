@@ -1,26 +1,37 @@
 {
   "name": "custom-api",
   "version": "1.0.0",
+  "description": "Mock REST API using JSON Server for frontend development",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "json-server --watch db.json --port 3000",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trisnaapurbo/custom-api.git"
   },
-  "keywords": [],
+  "keywords": [
+    "json-server",
+    "mock-api",
+    "rest-api",
+    "frontend",
+    "fake-api",
+    "json",
+    "nodejs"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/trisnaapurbo/custom-api/issues"
   },
   "homepage": "https://github.com/trisnaapurbo/custom-api#readme",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
     "json-server": "^1.0.0-beta.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
