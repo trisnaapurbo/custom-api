@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "id": "1986",
+      "text": "HTML",
+      "isCompleted": true
+    },
+    {
+      "id": "762a",
+      "text": "CSS",
+      "isCompleted": true
+    },
+    {
+      "id": "2315",
+      "text": "JS",
+      "isCompleted": true
+    },
+    {
+      "id": "f868",
+      "text": "REACT",
+      "isCompleted": false
+    },
+    {
+      "id": "8bc6",
+      "text": "REDUX",
+      "isCompleted": false
+    },
+    {
+      "id": "4749",
+      "text": "PYTHON",
+      "isCompleted": false
+    }
+  ]
+}
